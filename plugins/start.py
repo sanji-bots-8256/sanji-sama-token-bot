@@ -146,8 +146,8 @@ async def start_command(client: Client, message: Message):
                 await update_verify_status(id, verify_token=token, link="")
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
                 btn = [
-                    [InlineKeyboardButton("Click Here To Refresh Token", url=link)],
-                    [InlineKeyboardButton('How To Use The Bot', url=full_tut_url)]
+                    [InlineKeyboardButton("GENERATE NEW TOKEN", url=link)],
+                    [InlineKeyboardButton('HOW TO USE THE BOT', url=full_tut_url)]
                 ]
                 await message.reply(f"Your Ads Token is Expired, To Generate New Token please Click on Generate New Token.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis Is An Ads token. These Ads are Display In Various Sites by Single Link (Shortner). After Watching These ads You get a Token Which are Valid For 24 Hr.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
