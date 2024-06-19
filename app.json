@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/atiiif/24-hours-token-bottt",
+  "repository": "https://github.com/Ahmed789l/sanji-sama-token-bot",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {

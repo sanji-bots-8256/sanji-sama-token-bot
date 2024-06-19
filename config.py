@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://rjkundra:Kayamkhani@cluster0.s6lvxxs.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "98e4ba0ce12f597f58922d5dadddc4508da71026")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "e852f19480a6b7db7510839cecf385c435660972")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","sotutorials")
+TUT_VID = os.environ.get("TUT_VID","Hanime_collection")
 
 
 #force sub channel id, if you want enable force sub
@@ -44,10 +44,10 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001619486126"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.\n🧑‍💻 Developed by @Urr_Sanjii")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6727550037").split()):
+    for x in (os.environ.get("ADMINS", "6727550037 7162615398 1675155069").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
