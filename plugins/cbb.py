@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>Owner - @Bad_Pirate_LUFFY \n My Channel - <a href=https://t.me/jjustanime>Hindi Sub Anime</a>\nMy Team - <a href=https://t.me/Team_JXG>Team_JXG</a>\nSupport Group - <a href=https://t.me/Request4anime>Support</a>\n\n👨‍💻 Developed by - <a href=https://t.me/Urr_Sanjii>𝐒ᴀɴJɪ 𝐒αᴍᴀ™</a></b>",
+            text = f"<b>○ 𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n○ 𝐁ᴏᴛ 𝐔ᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ</a>\n○ 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ : <a href='https://t.me/Straw_hat_support'>𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ : <a href='https://t.me/+BSL2tOp6BGE2MGU1'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ 𝐆ʀᴏᴜᴘ </a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("⚡️ Cʟᴏsᴇ", callback_data = "close")
                     ]
                 ]
             )
