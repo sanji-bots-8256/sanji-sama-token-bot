@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031978775"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001985214229"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1418213560"))
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","Straw_Hat_Bots")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002059817947"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002209844723"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
