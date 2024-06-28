@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031978775"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6727550037"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1418213560"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,7 +32,7 @@ DB_URI = "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongo
 DB_NAME = os.environ.get("DATABASE_NAME", "Straw_Hat_Database")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "133321f1b1f9a656c89e55fcf7ee301c37ee3835")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "fc348050668f72823ffc258b84a0aa07e60bea95")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","Straw_Hat_Bots")
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {mention}⚡\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6727550037 7162615398").split()):
+    for x in (os.environ.get("ADMINS", "6727550037 7162615398 5261438298").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ Don't send me messages directly I'm only Work For @Straw_Hat_Bots"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6727550037)
+ADMINS.append(1418213560)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
